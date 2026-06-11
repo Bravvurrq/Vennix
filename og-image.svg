@@ -1,0 +1,67 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <radialGradient id="glowPurple" cx="0.2" cy="0.1" r="0.6">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowCyan" cx="0.85" cy="0.9" r="0.6">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M 64 0 L 0 0 0 64" fill="none" stroke="rgba(255,255,255,0.045)" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="cardStroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="rgba(139,92,246,0.6)"/>
+      <stop offset="100%" stop-color="rgba(6,182,212,0.6)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#0a0a0f"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect width="1200" height="630" fill="url(#glowPurple)"/>
+  <rect width="1200" height="630" fill="url(#glowCyan)"/>
+
+  <!-- Decorative orbs -->
+  <circle cx="1080" cy="110" r="180" fill="#8b5cf6" opacity="0.10"/>
+  <circle cx="120" cy="560" r="160" fill="#06b6d4" opacity="0.10"/>
+
+  <!-- Glass badge -->
+  <rect x="80" y="118" rx="22" ry="22" width="318" height="44" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.14)" stroke-width="1.5"/>
+  <circle cx="110" cy="140" r="6" fill="#06b6d4"/>
+  <text x="130" y="147" font-family="Inter, Arial, Helvetica, sans-serif" font-size="19" font-weight="600" letter-spacing="3" fill="rgba(255,255,255,0.85)">DIGITAL MARKETING</text>
+
+  <!-- Logo mark -->
+  <rect x="80" y="208" rx="24" ry="24" width="92" height="92" fill="url(#brand)"/>
+  <!-- Zap bolt -->
+  <path d="M 135 226 L 107 262 L 124 262 L 117 282 L 145 246 L 128 246 Z" fill="#ffffff"/>
+
+  <!-- Wordmark -->
+  <text x="194" y="282" font-family="Inter, Arial, Helvetica, sans-serif" font-size="84" font-weight="800" letter-spacing="-3" fill="#ffffff">Vennix</text>
+
+  <!-- Tagline -->
+  <text x="80" y="392" font-family="Inter, Arial, Helvetica, sans-serif" font-size="58" font-weight="800" letter-spacing="-1.5" fill="#ffffff">Premium <tspan fill="url(#brand)">Growth Marketing</tspan></text>
+
+  <!-- Subline -->
+  <text x="80" y="442" font-family="Inter, Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="rgba(255,255,255,0.55)">Marketing that drives revenue — not vanity metrics.</text>
+
+  <!-- Stats chips -->
+  <g font-family="Inter, Arial, Helvetica, sans-serif">
+    <rect x="80" y="492" rx="18" ry="18" width="218" height="58" fill="rgba(255,255,255,0.05)" stroke="url(#cardStroke)" stroke-width="1.5"/>
+    <text x="104" y="529" font-size="24" font-weight="700" fill="#ffffff">200+ <tspan fill="rgba(255,255,255,0.5)" font-weight="500" font-size="20">Campaigns</tspan></text>
+
+    <rect x="318" y="492" rx="18" ry="18" width="186" height="58" fill="rgba(255,255,255,0.05)" stroke="url(#cardStroke)" stroke-width="1.5"/>
+    <text x="342" y="529" font-size="24" font-weight="700" fill="#ffffff">4.8x <tspan fill="rgba(255,255,255,0.5)" font-weight="500" font-size="20">ROAS</tspan></text>
+
+    <rect x="524" y="492" rx="18" ry="18" width="232" height="58" fill="rgba(255,255,255,0.05)" stroke="url(#cardStroke)" stroke-width="1.5"/>
+    <text x="548" y="529" font-size="24" font-weight="700" fill="#ffffff">$47M <tspan fill="rgba(255,255,255,0.5)" font-weight="500" font-size="20">Generated</tspan></text>
+  </g>
+
+  <!-- Bottom accent line -->
+  <rect x="0" y="624" width="1200" height="6" fill="url(#brand)"/>
+</svg>
