@@ -38,10 +38,8 @@ vercel
 
 Or connect the GitHub repo at [vercel.com/new](https://vercel.com/new) — zero config required.
 
-## 📬 Contact
-
-- Email: Kellyray.dev@gmail.com
-- Phone: +1 (202) 571-6325
-- GitHub: [github.com/Kellyraydev](https://github.com/Kellyraydev)
+## 📬 Contact 
+@Bravvurq on GitHub or contact via email at 
+bravurq@sudomail.com 
 
 © 2026 Vennix. All rights reserved.
